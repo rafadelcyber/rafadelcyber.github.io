@@ -74,6 +74,21 @@
     .project:hover {
       transform: translateY(-5px) scale(1.025);
     }
+    .tags {
+      margin-top: 0.7rem;
+    }
+    .tag {
+      display: inline-block;
+      background: #0078d7;
+      color: #fff;
+      border-radius: 4px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.95rem;
+      margin-right: 0.5rem;
+      margin-bottom: 0.4rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
     .contact-form {
       display: flex;
       flex-direction: column;
@@ -116,7 +131,7 @@
   <header>
     <img src="https://avatars.githubusercontent.com/u/rafadelcyber?v=4" alt="Foto de Rafael Viera" style="width:110px;border-radius:50%;border:4px solid #fff;box-shadow:0 4px 14px rgba(0,0,0,0.1);margin-bottom:1rem;">
     <h1>Rafael Viera</h1>
-    <p>Desarrollador | Entusiasta de la Ciberseguridad | Aprendiz constante</p>
+    <p>Desarrollador Web & IoT | Especialista en Python, ESP32 y C++</p>
   </header>
   <nav>
     <a href="#sobre-mi">Sobre mí</a>
@@ -127,23 +142,46 @@
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
       <p>
-        ¡Hola! Soy Rafael Viera. Me apasiona la tecnología, el desarrollo web y la ciberseguridad. Siempre estoy buscando aprender algo nuevo y compartir mis proyectos con la comunidad.
+        ¡Hola! Soy Rafael Viera. Mi pasión es el desarrollo de soluciones tecnológicas utilizando Python, dispositivos ESP32 y C++. Me especializo en la integración de hardware y software, así como en el desarrollo web moderno. Me motiva crear herramientas útiles, innovar en el ámbito del Internet de las Cosas (IoT) y contribuir a proyectos open source.
       </p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">ESP32</span>
+        <span class="tag">C++</span>
+        <span class="tag">IoT</span>
+        <span class="tag">Desarrollo Web</span>
+      </div>
     </section>
     <section id="proyectos">
       <h2>Proyectos destacados</h2>
       <div class="projects">
         <div class="project">
-          <h3>Mi Blog de Ciberseguridad</h3>
-          <p>Publicaciones sobre hacks éticos, análisis de vulnerabilidades y consejos de seguridad digital.</p>
-          <a href="https://rafadelcyber.github.io/blog" target="_blank">Ver blog</a>
+          <h3>Control de Sensores con ESP32</h3>
+          <p>Plataforma para monitoreo y control de sensores IoT usando ESP32, con backend en Python y frontend web.</p>
+          <div class="tags">
+            <span class="tag">ESP32</span>
+            <span class="tag">Python</span>
+            <span class="tag">IoT</span>
+          </div>
+          <a href="https://github.com/rafadelcyber/esp32-iot-sensors" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+          <h3>Dashboard Web en Python</h3>
+          <p>Aplicación web interactiva para visualizar datos en tiempo real, desarrollada con Python y tecnologías modernas.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Web</span>
+          </div>
+          <a href="https://github.com/rafadelcyber/python-web-dashboard" target="_blank">Ver proyecto</a>
         </div>
         <div class="project">
           <h3>Repositorio GitHub</h3>
-          <p>Descubre mis proyectos y colaboraciones en mi perfil de GitHub.</p>
+          <p>Explora todos mis proyectos de desarrollo, electrónica e IoT.</p>
+          <div class="tags">
+            <span class="tag">Open Source</span>
+          </div>
           <a href="https://github.com/rafadelcyber" target="_blank">Ver repositorios</a>
         </div>
-        <!-- Agrega más proyectos aquí -->
       </div>
     </section>
     <section id="contacto">
